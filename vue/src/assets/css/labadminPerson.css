@@ -1,0 +1,58 @@
+/*.el-card{*/
+/*    border-radius: 20px;*/
+/*    margin-bottom: 20px;*/
+/*    background-color: rgba(255, 255, 255, 0.91);*/
+/*    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.89);*/
+
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+
+/*    width: auto !important;*/
+/*    padding-top: 20px;*/
+/*}*/
+
+/*.el-card/deep/.el-card__body{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.avatar-uploader{
+    padding-left: 47px;
+}
+
+.el-button{
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(213, 124, 0, 0.89);
+
+    margin: 0px !important;
+    width: 208px;
+    height: 35px;
+}
+
+.el-button:hover{
+    background-color: rgba(215, 135, 25, 0.54);
+}
+
+.el-form{
+    width: 358px;
+}
+
+.el-card{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.91);
+    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.89);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: auto !important;
+    padding-top: 20px;
+}

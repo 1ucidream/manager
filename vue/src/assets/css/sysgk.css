@@ -1,0 +1,167 @@
+.info-boxx-wrapper{
+    /*这是title图片的wrapper*/
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+
+
+}
+
+.info-boxx{
+    width: 100%;
+    height: 200px;
+    max-width: 2000px;
+
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.info-box-wrapper{
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info-box{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;/*顶端对齐*/
+    flex-direction: row; /*水平排列*/
+
+}
+.info-box-left-wrapper{
+    height: auto;
+}
+.info-box-left{
+     width:auto;
+    height: auto;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+.left-menu-title{
+    width: 300px;
+    height: 50px;
+
+    background-color: #003b35;
+
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+
+
+}
+.left-menu{
+    height: auto !important;
+    width: 300px !important;
+}
+.left-menu-item{
+    background-color: rgba(222, 222, 222, 0.68) ;
+    color: #888888 ;
+    font-size: 14px ;
+
+    height: 60px;
+}
+
+.left-menu-item.is-active{
+    color: #006558;
+}
+
+/*body字体样式*/
+.wz-right-nav {
+    margin-top: 50px;
+    font-family: "楷体", KaiTi, "Microsoft YaHei","Arial", sans-serif; /* 设置字体样式，可以根据需要更改 */
+    font-size: 23px; /* 设置字体大小，可以根据需要更改 */
+    line-height: 1.5; /* 设置行高，可以根据需要更改 */
+    color: #333; /* 设置字体颜色，可以根据需要更改 */
+    font-weight: lighter;
+}
+
+/*这是物理实验列表的wrapper, 包括标题和列表内容*/
+.wz-wrapper {
+    margin-top: 50px;
+    font-family: "楷体", KaiTi, "Microsoft YaHei","Arial", sans-serif; /* 设置字体样式，可以根据需要更改 */
+    font-size: 23px; /* 设置字体大小，可以根据需要更改 */
+    line-height: 1.5; /* 设置行高，可以根据需要更改 */
+    color: #333; /* 设置字体颜色，可以根据需要更改 */
+    /*font-weight: bold;*/
+}
+.info-box-right{
+    /*padding: 15px;*/
+    width: 900px;
+    height: auto;
+    padding: 40px 60px;
+
+}
+
+/*这是除了实验室概况之外的面包屑*/
+.breadcrumb-02{
+    margin-bottom: 35px;
+}
+
+/*这是大学物理实验这个标题的div*/
+.wz-title{
+    font-size: 24px;
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #d3d3d3;
+    color: #0f636e;
+
+}
+
+/*这是列表外层的div*/
+.wz-list{
+    /*增加一点和左边的导航栏隔开*/
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*这是列表ul*/
+.wz-list-ul{
+
+    width: 780px;
+}
+
+/*这是列表li*/
+.wz-list-li{
+    height: 50px;
+    font-size: 15px;
+align-items: center;
+    line-height: 49px;
+}
+.wz-list-li img{
+    height: 685px;
+}
+
+.wz-list-p{
+    /*这是列表项中的日期标签*/
+    float: right;
+    color: #999999;
+}
+
+.wz-list-a{
+    /*这是列表项的文字部分*/
+    color: #333333;
+}
+
+.wz-list-a:hover{
+    padding-left: 18px;
+    color: #0f636e;
+}
+
+/*这是近代物理系列讲义正文的列表*/
+.v_news_content{
+    width: 780px;
+}
+

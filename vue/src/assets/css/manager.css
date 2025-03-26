@@ -1,0 +1,414 @@
+.background-container{
+    background-image: url("@/assets/imgs/樱花-04.jpg");
+}
+
+
+.manager-container {
+    /*background-color: #f8f8ff;*/
+
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 28, 25, 0.14);
+}
+
+.manager-header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.91);
+
+    border-radius: 0px 0px 20px 20px ;
+}
+
+.manager-header-left {
+    width: 200px;
+    height: 60px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center
+}
+
+.manager-header-left img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    /*border: 1px solid #a0ddcd;!*logo的圆框*!*/
+}
+
+.manager-header-left .title {
+    flex: 1;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #303133
+}
+
+.manager-header-center {
+    flex: 1;
+    width: 0;
+    display: flex;
+    align-items: center;
+    /*background-color: rgba(255, 255, 255, 0.91);*/
+    background-color: transparent;
+    color: #002623;
+
+    padding-left:9px;
+}
+
+/*这是管理员头像*/
+.manager-header-right {
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #002623;
+
+}
+
+.el-dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.manager-header-right .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*padding-right: 10px;*/
+    margin-top: 14px;
+    color: #fff;
+    cursor: default;
+
+}
+
+.manager-header-right .avatar img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    /*margin-right: 5px*/
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.manager-main {
+    display: flex;
+}
+
+.manager-main-left {
+    width: auto;
+
+    height: auto;
+
+    min-height: calc(100vh - 60px);
+    /*box-shadow: 5px 5px 10px  5px rgba(0, 0, 0, .1);*/
+
+    padding: 20px 0px 25px 0px;
+    margin-right: 10px;
+
+    border: none;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: flex-start;
+}
+
+.manager-main-right {
+    flex: 1;
+    width: 0;
+    padding: 20px 20px 20px 10px;
+}
+
+.manager-main-right .search {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.el-input--small .el-input__inner{
+    border-radius: 15px;/*搜索输入框圆角*/
+}
+
+.manager-main-right .operation {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1)
+}
+
+.manager-main-right .table {
+    margin-top: 5px;
+    padding: 15px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+.manager-main-right .table .pagination {
+    margin-top: 10px;
+}
+
+.card {
+    /*background-color: #fff;*/
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  5px rgba(0, 0, 0, .1);
+
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.91);
+
+    padding: 20px;
+}
+
+.search{
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 10px  5px rgba(0, 0, 0, .1) !important;
+
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.91) !important;
+
+    padding: 20px;
+}
+.operation{
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 10px  5px rgba(0, 0, 0, .1) !important;
+
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.91) !important;
+
+    padding: 20px;
+}
+.table{
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 10px  5px rgba(0, 0, 0, .1) !important;
+
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.91) !important;
+
+    padding: 20px;
+}
+/*退出登录的按钮*/
+.logout-button{
+    margin-bottom: 20px;
+background-color: transparent;
+    border: none;
+}
+.logout-button:hover{
+    text-decoration: underline;/*添加:hover,悬停, underline是添加下划线*/
+
+}
+/* ElementUI , 就是主页左侧那一列什么 系统首页, 信息管理, 公告信息*/
+.el-menu {
+    width: 200px;/*宽度*/
+    height: 100%;
+    /*background-color: #002623;*/
+    /*background: transparent;*/
+    /*background-image: url("@/assets/imgs/樱花-04.jpg");*/
+    /*background: transparent;*/
+    color: #000000;
+
+    /*background-color: rgba(255, 255, 255, 0);*/
+    /*backdrop-filter: blur(5px);*/
+
+    border-radius: 0px 25px 25px 0px;
+
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.6);
+
+    padding: 20px 0px 20px 0px;
+
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+
+    /*menu的背景色默认为白色*/
+    background-color: rgba(255, 255, 255, 0.91);
+
+}
+
+.el-submenu{
+    border-radius: 20px;
+    /*padding: 5px 0px 5px 0px;*/
+
+    background: transparent;
+
+    padding-top: 10px;
+
+    width: 200px;
+
+
+    align-items: center;
+
+}
+
+.el-submenu__title {
+    /*子菜单文字颜色*/
+    color: #303133;
+    font-size: 14px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    height: 50px;
+    line-height: 50px;
+
+    /*border-radius: 33px;*/
+
+    background-color: transparent;
+    /*background-color: rgba(255, 255, 255, 0.18);*/
+
+    padding: 0px 50px 0px 0px !important;
+
+    transition: background-color 0.3s ease; /* 设置过渡属性和时长 */
+
+}
+
+.el-menu--inline{
+
+    width: 200px !important;
+
+    margin-top: 4px;
+    background-color: transparent;
+
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0) !important;
+    /*backdrop-filter: blur(0%) !important;*/
+
+}
+
+.el-menu-item {
+    /*border-radius: 20px;*/
+
+    /*color: #f5f4f4;*/
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: transparent !important;  /*必须加上这个背景色，否则鼠标离开会出现白色 */
+
+    font-size: 14px;
+    /*border-radius: 33px;*/
+
+    transition: background-color 0.3s ease; /* 设置过渡属性和时长 */}
+
+.el-menu-item.is-active {
+    background-color: rgba(0, 38, 35, 0.4) !important;
+    color: rgb(255, 255, 255);
+    /*border-right: 3px solid #07c796;*/
+}
+
+.el-submenu__title.is-active{
+    background-color: rgba(0, 38, 35, 0.41) !important;
+    color: rgb(255, 255, 255);
+}
+
+.el-menu--inline{
+    width: 200px;
+    padding: 0px;
+}
+.el-menu--inline .el-menu-item {
+    text-align: center;
+    padding-left: 37px !important;
+    margin-top: 3px !important;
+}
+
+.el-menu .is-active {
+    color: #f5f4f4 !important;
+}
+
+.el-submenu__title:hover {
+    background-color: rgba(0, 38, 35, 0.4) !important;
+    color: #f5f4f4;
+    /*border-radius: 33px;*/
+}
+.el-menu-item:hover {
+    background-color: rgba(0, 38, 35, 0.4) !important;
+    color: #f5f4f4 !important;
+    /*border-radius: 33px;*/
+
+}
+
+
+@keyframes delayDisappear {
+    0% {
+        outline-color: #003b35; /* 悬停时的背景颜色 */
+    }
+    /*90% {*/
+    /*    outline-color: lightblue; !* 悬停时的背景颜色 *!*/
+    /*}*/
+    100% {
+        outline-color: transparent; /* 鼠标离开时的背景颜色 */
+    }
+}
+.el-menu-item:not(:hover){
+    transition: outline-color 0.5s ease; /* 设置过渡属性和时长 */
+    transition-delay: 0.5s; /* 设置过渡延迟时间 */
+    outline-color: transparent;
+
+}
+
+
+.el-menu-item:not(.is-active):hover {
+    /*background-color: #0376bf !important;*/
+    /*color: #fff;*/
+}
+
+/*这是几个图标*/
+.el-icon-s-home:hover{
+    color: white;
+}
+
+.el-icon-setting:hover{
+    color: white;
+
+}
+
+.el-icon-back:hover{
+    color: white;
+
+}
+
+.el-icon-menu:hover{
+    color: white;
+
+}
+
+.el-submenu__icon-arrow {
+    margin-top: -5px;
+}
+
+.el-breadcrumb__inner {
+    color: #303134 !important;
+}
+.el-breadcrumb__separator {
+    color: #303134;
+}
+.el-breadcrumb {
+    margin-left: 10px;
+}
+.el-dropdown-menu {
+    margin-top: 20px !important;
+}
+
+th.el-table__cell {
+    background-color: #f8f8f8 !important;
+    color: #f5f4f4;
+}
+
+/*.footer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+
+/*    color: #8c939d;*/
+/*    height: 90px;*/
+/*    width: 100%;*/
+/*    background: #343737;*/
+/*    overflow: hidden;*/
+/*    padding-bottom: 15px;*/
+/*}*/

@@ -1,0 +1,477 @@
+.front-notice {
+    padding: 5px 20px;
+    color: #666;
+    font-size: 12px
+}
+.front-header {
+    /* 对齐方式*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 60px;
+    /*border-bottom: 1px solid #eee;*/
+    background: #003b35;
+}
+
+.front-header-top-wrapper{
+    width: 100%;
+    background: #002623;
+
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.front-header-top{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1200px;
+
+    color: white;
+}
+
+/*顶端的登陆注册按钮*/
+.top-button{
+    width: 60px;
+    background: rgb(0, 38, 35);    /*调整inner的背景色，透明*/
+    border: 0px;
+    color: #ffffff;
+    height: 33px;    /*调整inner的高度*/
+    border-radius: 10px;
+    font-size: 14px;
+
+    padding: 5px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.top-button:hover{
+    /*color: #002623;*/
+    background-color: transparent;
+
+    text-decoration: underline;
+}
+/*管理员头像*/
+.front-header-dropdown img {
+    width: 30px;
+    height:30px;
+    border-radius: 50%
+}
+.front-header-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    color: white;
+    margin-top: 9px;
+}
+.front-header-main-wrapper{
+    background: #003b35;
+
+}
+
+.front-header-main , .front-header-top{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*padding-left: 30px;*/
+}
+
+.front-header-main{
+    height: 130px;
+}
+
+    /*放置logo的容器*/
+.front-header-main-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*logo*/
+.front-header-main-left img{
+
+    width: auto;
+    height: 70px;
+}
+
+/*这是搜索框以及按钮的div*/
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    width: 335px;
+    height: 40px;
+}
+
+/*header主体部分的搜索按钮*/
+.search-button{
+    height: 40px;
+    margin-left: 10px;
+
+    border-radius: 2px;
+    color: white;
+    background-color: #001e1c;
+    border-color: rgba(227, 227, 227, 0.22);
+
+}
+.search-button:hover{
+
+}
+/*这里是header的导航栏*/
+.top-nav-wrapper{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    /*水平布局*/
+    align-items: center;
+}
+.top-nav{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    /*水平布局*/
+    align-items: center;
+}
+.top-nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.el-menu{
+    background-color: transparent;
+
+}
+/*菜单item hover颜色*/
+.nav-item-01:hover {
+    background-color: #002623 !important;
+    color: #ffffff;
+}
+
+.top-nav>>>.nav-item-01:hover{
+    color: #f5f4f4;
+}
+
+/*.nav-item-01.is-active {*/
+/*    background-color: #002623 !important;*/
+
+/*    color: #ffffff;*/
+/*}*/
+/*//设置鼠标悬停时el-menu-item的样式*/
+
+
+  .nav-sub-item:hover{
+      /*border-left:#33A2EF solid 6px !important;*/
+      background-color: #ffffff !important;
+      color: rgba(0, 53, 44, 0.8) !important;
+
+}
+/*//设置选中el-menu-item时的样式*/
+  .top-nav>>>.el-menu-item.is-active {
+      background-color: #003b35 !important;
+      color: #f5f4f4 !important;
+  }
+
+/*.el-menu-text{*/
+/*    color: #000000;*/
+/*}*/
+/*.el-menu-text:hover{*/
+/*    color: white;*/
+/*}*/
+
+/*这是轮播图*/
+.body-banner-wrapper-container{
+    background-image: url("@/assets/imgs/图书馆-01.png");
+
+}
+.body-banner-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    /*水平布局*/
+    align-items: center;
+
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.body-banner{
+    width: 1200px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.el-carousel{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*align-items: center;*/
+}
+
+/*.el-carousel__item h3 {*/
+/*    color: #475669;*/
+/*    font-size: 14px;*/
+/*    opacity: 0.75;*/
+/*    line-height: 150px;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.el-carousel__item:nth-child(2n) {*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*    background-color: #99a9bf;*/
+/*}*/
+
+/*.el-carousel__item:nth-child(2n+1) {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: #d3dce6;*/
+/*}*/
+
+/*这是轮播图下方的新闻主体box*/
+.xw-boxx-wrapper{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.xw-boxx{
+    width: 100%;
+    height: 200px;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;!*顶端对齐*!*/
+    flex-direction: row; /*水平排列*/
+    overflow: hidden;
+    /*margin-bottom: 20px;*/
+
+}
+.xw-box-wrapper{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.xw-box{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;/*顶端对齐*/
+    flex-direction: row; /*水平排列*/
+
+}
+
+.xw-box-left{
+    width:300px;
+}
+.xw-box-left-top{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 23px 15px 0px 15px;
+}
+
+.xw-left-top-logo-part{
+    width: 155px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.xwzhongxin{
+    padding-left: 15px;
+
+}
+.xw-left-top-logo-part img{
+    width: 40px;
+    height: 40px;
+}
+/*这是进入新闻中心*/
+.xw-left-top-text{
+    color: #6f0800;
+    /*font-weight: bold;*/
+}
+.xw-left-top-text:hover{
+    color: #6f0800;
+}
+/*这是新闻左侧轮播图*/
+.xw-box-left-banner{
+    width: 300px;
+
+    padding: 15px;
+    align-items: flex-start;
+}
+
+/*这是新闻右侧列表*/
+.xw-box-right{
+    /*padding: 15px;*/
+    width: 900px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.xw-right-nav{
+    padding: 23px 15px 0px 15px;
+}
+
+/*这是新闻box右侧的卡片外层的div*/
+.xw-right-card{
+    height: 100%;
+    padding: 5px;
+}
+
+
+/*卡片一的内部*/
+.el-card__header{
+    /*padding: 0px;*/
+    height: 136px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.clearfix,  .baiya{
+    /*卡片的header*/
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+/*卡片三内部的列表*/
+.card-01-buju{
+    /*list-style-type: none;*/
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    /*align-items: center;*/
+}
+/*这个是对li的设置*/
+.card-01-text{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+    color: #001e1c;
+    width: 540px;
+    height: 35px;
+
+
+}
+
+/*这是对a的设置*/
+.card-01-a{
+
+    color: #4c4c4c;
+    float: left;
+}
+
+.xw-date{
+    float: right;
+}
+/*.card-01-text::before {*/
+/*    !*content: "●";*!*/
+/*    color: #0c561c;*/
+/*    font-size: 5px;*/
+/*    margin-right: 5px;*/
+/*}*/
+
+/*这是新闻box底部的lab链接部分*/
+.lab-link-wrapper{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lab-link{
+    width: 1200px;
+    height: 185px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+    display: flex;
+    /*justify-content: center;*/
+    align-items: flex-start;
+    flex-direction: row;
+}
+.link-01{
+    padding: 10px 9px;
+}
+.front-header-left .title {
+    flex: 1;
+    color: #355476;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.front-header-center {
+    flex: 1;
+}
+.front-header-right {
+    width: 200px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.el-dropdown-menu {
+    width: 100px !important;
+    text-align: center !important;
+}
+
+/*页面具体样式自定义*/
+.main-content {
+    width: 100%;
+    margin: 5px auto;
+}
+/* ElementUI 样式覆盖 */
+.el-menu.el-menu--horizontal {
+    border: none !important;
+    height: 59px;
+}
